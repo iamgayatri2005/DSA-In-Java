@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 public class ArrayListDemo {
     public static void main(String[] args) {
         ArrayList<Integer> arr = new ArrayList<>();
@@ -25,6 +26,7 @@ public class ArrayListDemo {
         System.out.println(arr);
         arr.remove(arr.size()-1);
         System.out.println(arr);
+        Collections.reverse(arr);
 
 
     }
