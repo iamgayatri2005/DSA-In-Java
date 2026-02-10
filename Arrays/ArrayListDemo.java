@@ -20,6 +20,10 @@ public class ArrayListDemo {
             System.out.println(ele+ " ");
         }
 
+        arr.add(78);
+        arr.add(1, 100);
+        System.out.println(arr);
+
 
     }
 }
