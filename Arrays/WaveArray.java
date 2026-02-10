@@ -9,9 +9,9 @@ public class WaveArray {
             arr[i + 1] = temp;
         }
 
-        // print result
-        for (int x : arr) {
-            System.out.print(x + " ");
-        }
-    }
-}
+//         // print result
+//         for (int x : arr) {
+//             System.out.print(x + " ");
+//         }
+//     }
+// }
