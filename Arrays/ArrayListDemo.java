@@ -27,6 +27,7 @@ public class ArrayListDemo {
         arr.remove(arr.size()-1);
         System.out.println(arr);
         Collections.reverse(arr);
+        System.out.println(arr);
 
 
     }
