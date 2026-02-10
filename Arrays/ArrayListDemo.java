@@ -23,6 +23,7 @@ public class ArrayListDemo {
         arr.add(78);
         arr.add(1, 100);
         System.out.println(arr);
+        arr.remove(arr.size()-1);
 
 
     }
